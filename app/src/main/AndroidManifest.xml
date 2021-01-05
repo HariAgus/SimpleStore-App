@@ -11,6 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.StoreSimpleApp">
+        <activity android:name=".activities.intro.IntroActivity"></activity>
+        <activity android:name=".activities.splashcreen.SplashScreenActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
